@@ -1,7 +1,8 @@
 {
 	"headers": {
 		"/*": {
-			"X-Author": "doorsdream"
+			"X-Author": "doorsdream",
+			"Access-Control-Allow-Origin": "*"
 		}
 	}
 }
