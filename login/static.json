@@ -1,1 +1,16 @@
 
+{
+	"headers": {
+		"/*": {
+			"X-Author": "doorsdream",
+			"Access-Control-Allow-Origin": "*",
+			"Content-Type": "text/plain; charset=UTF-8"
+		}
+	},
+	"/*": {
+  		"routes": {
+    			"/login/": "index.html",
+   			"/sample/": "index.html"
+  		}
+	}
+}
