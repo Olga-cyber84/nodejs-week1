@@ -1,4 +1,4 @@
-{
+/*{
 	"headers": {
 		"/*": {
 			"X-Author": "doorsdream",
@@ -10,4 +10,18 @@
 	"routes": {
 	    "/**": "index.html"
 	  }
+}*/
+{
+  "headers": {
+    "/": {
+		"X-Author": "doorsdream",
+		"Access-Control-Allow-Origin": "*"    
+    },
+    "/login/**": {
+      "Cache-Control": "public, max-age=512000"
+    },
+    "/assets/webfonts/*": {
+      "Access-Control-Allow-Origin": "*"
+    }
+  }
 }
